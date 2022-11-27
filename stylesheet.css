@@ -1,0 +1,277 @@
+body{
+	font-family :
+	YuMincho,   
+	'Yu Mincho', 
+	serif;
+}
+
+/* ヘッダー部分 */
+
+header {
+    height: 80px;
+    width: 100%;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    display: inline-block;
+  }
+  
+  .logo {
+    width: 400px;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    transition: all 0.5s;
+  }
+  
+  .header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .header-right a {
+    font-size: 20px;
+    line-height: 80px;
+    padding: 0px 20px;
+    color: white;
+    display: block;
+    text-decoration: none;
+  }
+
+  /* トップ部分 */
+
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(https://lh3.googleusercontent.com/s5LvLO5UJSqe9CBwBxqFIp7gk77IyF1xLUpsJhqKdmH7f4-yUFPEyFbHEkU7lLVeR00B5ru7yQwYWpSIjy6oBM9-XmQkiFdTD9_DU6ZW0GsDHH8J3IAr5m1uwazC1llBiWIK8tOmgL__9G--GNdQMLIN5W-bH99GYsnJKVrrvxMxjgHg4CguTpm46LKaWxWFIk9Nyb5KFRrIZGInCvKQ5uSKZ64xlKfkEFDKcancCtxzcjeAGQ8A8fF9VWhMIeJp3SxhY6_sIAqXr7zwc4Hc5qxdYCy6wp0TssSWj5WCoFf-KxqOVgZ_sL52OuDm-osbYiHJhZufjFt_5oc927nkWiDdg8JsnXqpsNcsh1YEPSQNuEHXfN8HpwEH-vrP1NYSAvhMUjp3Sxzj9J5Kz3rZBQkBXvo7mCo8kMcBhhTX_LLuzzjaITRQ-vU7yYUn0Ott9QkNY9USBZGKbclvPsYN5f_yrPJ9ZWpUJEudWavHFzr3gUW5KCWoLrduzwCnlgb58yXuD8bs2GzqJ215LgJbH4f4Ay1eRxJg7M1_xnNMq_xrsVmG36VN-CjIxhjgo9zrEpa3oW1JGN9ncVFQwQww6oBIxzf-GBtwR4polbxplK4kLIb-3pWdoBureiRTypvAVv47uimpttCWmz1LahdanayU-JQ8IB8hxE9hV3016n3dPOoFeKCrqG8iUsjJ_WPFhOiWSPwwOx_WmzQear-vcCfzEXEKfSSPOUwrwBStk52w5J9LhdB14h_5GppYgFqqCqaUhO_8t4gUQ6R9b603oNnWKn97jWipHzV3_j8mDZWzZkfdgawTUR0_8joFvDSe_5x7gXMsdxlX9hCPFGriF9C0rpo34Vlgc8PjrcEwzVNV5j2lzFQ-ArArNvZQHJsGhciJi16CQL5Hj01sMvOru8fyZsDuEBfDsQMVYPCKJQQqD_ug=w1379-h919-no?authuser=0);
+    color: #fff;
+    text-align: center;
+    background-repeat:  no-repeat;                                     
+    background-position:center center;                     
+    background-size:cover;
+    width:100%; 
+    height: 480px;
+}
+  
+.container {
+    width: 1170px;
+    margin: auto;
+}
+  
+.container h1 {
+    margin: 40px 0 250px 0;
+    font-size: 70px;
+    opacity: 0.7;
+    letter-spacing: 10px;
+    
+}
+
+.container h1 span {
+    color: #d3b35b;
+    opacity: 1.0;
+
+}
+  
+.signup {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border: solid 2px #fff;
+    padding: 10px;
+    transition: all 0.5s;
+}
+
+.signup:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+  /* メイン部分 */
+
+.main-wrapper {
+    height: 2400px;
+    background-color: #3e1e00;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.explanation {
+    padding: 100px 0px 100px 0px;
+    color: #fff;
+}
+
+.explanation h2 {
+    letter-spacing: 5px;
+    font-size: 50px;
+}
+
+.explanation p {
+    font-size: 22px;
+    padding-top: 50px;
+    line-height: 40px;
+}
+
+.explanation span {
+    color: #d3b35b;
+}
+
+.courses {
+    margin-top: 120px;
+    color: #fff;
+}
+
+.courses h3 {
+    color: #d3b35b;
+    font-size: 45px;
+    letter-spacing: 3px;
+}
+
+.course {
+    float: left;
+    width: 50%;
+}
+
+.course h4 {
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+.course img {
+    width: 60%;
+    margin-top: -30px;
+}
+
+.course p {
+    width: 60%;
+    font-size: 18px;
+    padding-top: 15px;
+    display: inline-block;
+}
+
+.syllabuses {
+    margin-top: 900px;
+    color: #fff;
+}
+
+.heading {
+    color: #d3b35b;
+    font-size: 45px;
+    letter-spacing: 3px;
+}
+
+.syllabus {
+    margin-top: 90px;
+    display: flex;
+}
+
+.syllabus-left {
+    float: left;
+    width: 30%;
+    text-align: right;
+}
+
+.syllabus-left img {
+    width: 30%;
+    margin-right: 0px;
+}
+
+.syllabus-right {
+    float: right;
+    width: 70%;
+    position: relative;
+   
+}
+
+.syllabus-right p {
+    width: 80%;
+    font-size: 18px;
+    padding-left: 60px;
+    display: inline-block;
+    text-align: left;
+    
+    
+}
+
+.first {
+    position: absolute;
+	top: 0;
+    left: 0;
+    margin-top: 4px;
+}
+
+.second {
+    position: absolute;
+	top: 50%;
+    left: 0;
+    margin-top: -50px;
+}
+
+.third {
+    position: absolute;
+	bottom: 0;
+    left: 0;
+    padding-bottom: 20px;
+}
+
+/* 演奏会部分 */
+
+.concert img {
+    display: inline-block;
+    width: 100%;
+}
+
+/* アクセス部分 */
+
+.access {
+    height: 800px;
+    background-color: #fff;
+    color: #000;
+}
+
+.heading-access {
+    font-size: 45px;
+    letter-spacing: 3px;
+    padding: 60px 0px 0px 80px;
+}
+
+.access-left {
+    float: left;
+    width: 50%;
+}
+
+.access-left img {
+    width: 80%;
+    padding-left: 50px;
+}
+
+.access-right {
+    float: left;
+    width: 50%;
+}
+
+.access-right p {
+    font-size: 22px;
+}
+
+.traffic p {
+    padding-top: 40px;
+}
+
+/* フッター部分 */
+
+.footer {
+    width: 100%;
+    height: 150px;
+    background-color: #000;
+    text-align : center;
+    display: inline-block;
+}
+
+.footer img {
+    width: 400px;
+    padding-top: 30px;
+}
