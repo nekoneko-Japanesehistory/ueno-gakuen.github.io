@@ -10,37 +10,38 @@ body{
 	YuMincho,   
 	'Yu Mincho', 
 	serif;
-	background-color: #000;
+    background-color: #000;
 }
 
 /* ヘッダー部分 */
 
-header {
+.header {
     height: 80px;
-    width: 100%;
+    width: 780px;
     background-color: #000;
-    
+
     display: inline-block;
-  }
+}
   
-  .logo {
+.logo {
     width: 400px;
-  }
+    display: inline-block;
+ }
   
-  .header-left {
+.header-left {
     float: left;
   }
-  
-  .header-right {
+
+ .header-right {
     float: right;
     transition: all 0.5s;
-  }
+ }
   
-  .header-right:hover {
+.header-right:hover {
     background-color: rgba(255, 255, 255, 0.5);
-  }
+}
   
-  .header-right a {
+.header-right a {
     font-size: 20px;
     line-height: 80px;
     padding: 0px 20px;
@@ -99,7 +100,7 @@ header {
   /* メイン部分 */
 
 .main-wrapper {
-    height: 2400px;
+    height: 2000px;
     background-color: #3e1e00;
     text-align: center;
     margin-top: -20px;
@@ -148,18 +149,18 @@ header {
 
 .course img {
     width: 60%;
-    margin-top: -30px;
+    
 }
 
 .course p {
     width: 60%;
-    font-size: 18px;
+    font-size: 16px;
     padding-top: 15px;
     display: inline-block;
 }
 
 .syllabuses {
-    margin-top: 900px;
+    margin-top: 700px;
     color: #fff;
 }
 
@@ -170,7 +171,7 @@ header {
 }
 
 .syllabus {
-    margin-top: 90px;
+    
     display: flex;
 }
 
@@ -194,7 +195,7 @@ header {
 
 .syllabus-right p {
     width: 80%;
-    font-size: 18px;
+    font-size: 16px;
     padding-left: 60px;
     display: inline-block;
     text-align: left;
@@ -211,7 +212,7 @@ header {
 
 .second {
     position: absolute;
-	top: 50%;
+	top: 53%;
     left: 0;
     margin-top: -50px;
 }
@@ -233,7 +234,7 @@ header {
 /* アクセス部分 */
 
 .access {
-    height: 800px;
+    height: 700px;
     background-color: #fff;
     color: #000;
 }
@@ -279,5 +280,5 @@ header {
 
 .footer img {
     width: 400px;
-    padding-top: 30px;
+    padding-top: 20px;
 }
